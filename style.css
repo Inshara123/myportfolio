@@ -1,0 +1,51 @@
+h2,h1,p{
+    font-family: poppins;
+}
+p{
+    color: gray;
+}
+button{
+    background-color: hsl(250, 61%, 60%) ;
+}
+img{
+    border-radius: 50%;
+    height: 250px;
+}
+.blob{
+  height: 250px;
+  width: 250px;
+  overflow: hidden;
+  background-image: url(me-removebg-preview\ \(1\).png);
+  background-size:cover ;
+  border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%;
+  animation: blob 3.7s linear infinite;
+}
+@keyframes blob {
+    0%,100%{
+        border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%;
+    }
+    33%{
+        border-radius: 42% 28% 42% 42% / 28% 28% 72% 72%;
+    }
+    66%{
+        border-radius: 100% 56% 56% 100%/ 100% 100% 56% 56%;
+    }
+
+}
+i{
+    color:  hsl(250, 61%, 60%);
+}
+button{
+    color: white;
+    font-size: 13px;
+    border-radius: 6px;
+    font-family: poppins;
+    height: 43px;
+  
+    font-weight: 500;
+    border: 1px solid hsl(250, 61%, 60%);
+}
+
+button i{
+    color: white;
+}
